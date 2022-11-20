@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'EditorialNew';
+    src: url('EditorialNew-Ultralight.otf');
+
+}
+
+@font-face {
+    font-family: 'Gothic';
+    src: url('GothicThirteenStd.otf');
+
+}
+
+@font-face {
+    font-family: 'PicNic';
+    src: url('PicNic-Regular.otf');
+}
+.sentence_cover{
+    font-family: 'Gothic','Noto Sans TC', sans-serif;
+    src: url('GothicThirteenStd.otf');
+    unicode-range: U+4E00-9FEA;}
+
+
