@@ -37,7 +37,7 @@ cursor: default;
 }
 
 .word2{
-   color:rgb(29, 123, 255);
+   color:rgb(10, 111, 255);
    font-family: 'Gothic';
    cursor: default;
    font-size: 1.5em;
@@ -47,7 +47,7 @@ cursor: default;
    }
 .container{
  width: 100%;
- height:3700px;
+ height:3780px;
  color: #68665c;
  background-color: #a7a188;
  position:relative;
