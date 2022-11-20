@@ -1,0 +1,460 @@
+::-moz-selection {
+  background-color: #68665c;
+  color: #222A12;
+   }
+   ::selection {
+  background-color: #68665c;
+  color: #222A12;
+   }
+   body {
+      -webkit-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none
+    }
+html, body {
+ margin: 0;
+ padding: 0;
+ font-size: 1.1em;
+ line-height: 1.6;
+ word-spacing: 2.0;
+ color: #68665c;
+ background-color: #a7a188;
+ word-break: keep-all;
+ font-family: 'EditorialNew';
+ scroll-behavior: smooth;
+ width:100%;
+ align-items: center;
+ float: center;
+ text-align: center;
+}
+img{width:100%; height: 100%;}
+
+.word{
+color: #68665c;
+background-color: rgb(97, 255, 158);
+cursor: default;
+}
+
+.word2{
+   color:rgb(10, 111, 255);
+   font-family: 'Gothic';
+   cursor: default;
+   font-size: 1.5em;
+ line-height: 1.1;
+ word-spacing: 1.0;
+ padding-top:5px;
+   }
+.container{
+ width: 100%;
+ height:3780px;
+ color: #68665c;
+ background-color: #a7a188;
+ position:relative;
+ text-align: center;
+ overflow-x: hidden;
+ float:center;
+padding-top:2%;
+}
+.sentence{
+   margin: 25px;
+   position:absolute; 
+   display:grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: repeat(40, 1fr);
+   z-index: 2;
+   text-align: left;
+}
+.sentence_cover{
+   margin: 25px;
+   position:relative; 
+   display:grid;
+   grid-template-columns: repeat(5, 1fr);
+   width:97%;
+   grid-template-rows: repeat(40, 0.87fr);
+   z-index: -3;
+   text-align: left; 
+   grid-row-gap: 2.5px;
+
+}
+.hb-set{
+   position:fixed;
+   z-index: 1; 
+   top:0;
+   width:100%;
+   height:100%; display: none;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 30%;
+
+}
+.title{position:fixed; background-color: #a7a188; width: 100%;  height:5%;line-height: 50px; align-items: center;
+   z-index: 10; display: block;
+   pointer-events: none; 	 box-shadow: 0px 0px 15px #a7a188;padding-top:6px; }
+
+.btn{position:fixed; 
+      left: 20px;
+      top: 13px; z-index: 15;padding-top:5px;}
+
+      .btn{border:none;font-size: 1em;
+         line-height: 1.4;
+         word-spacing: 2.0;
+         color: #68665c;
+         background-color: #a7a188;
+         word-break: keep-all;
+         font-family: 'editorialNew';}
+
+         .btn2{border:none;font-size: 1.3em;
+            line-height: 1.4;
+            word-spacing: 2.0;
+            color: #68665c;
+            background-color: #a7a188;
+            word-break: keep-all;
+            font-family: 'Gothic';padding-top:3px;}
+ .btn2{position:fixed; 
+    right: 30px;
+         top: 13px; z-index: 15;}      
+
+         .btn_content{position:absolute;
+            left: 0px;
+                 top: 31px; z-index: 9;width:100%;
+         }
+
+.cvd .emy .eco .lbr .ntn .pol .qer .rce .rel .wom{display:none}
+.h-set{
+   position:fixed;
+   width:100%;
+   text-align:center;
+   float:center;
+   height:100%; 
+   background-size: 35%;
+   background-position: center; 
+   background-repeat: no-repeat;
+   display:none;
+   z-index: 11;
+   pointer-events: none; 
+}
+
+.h1{background-image:url('../image/covid/cvd_1.png');}.h2{background-image:url('../image/covid/cvd_2.png');}.h3{background-image:url('../image/covid/cvd_3.png');}
+.h4{background-image:url('../image/covid/cvd_4.png');}.h5{background-image:url('../image/covid/cvd_5.png');}.h6{background-image:url('../image/covid/cvd_6.png');}
+.h7{background-image:url('../image/covid/cvd_7.png');}.h8{background-image:url('../image/covid/cvd_8.png');}.h9{background-image:url('../image/covid/cvd_9.png');}
+.h10{background-image:url('../image/covid/cvd_10.png');}.h11{background-image:url('../image/covid/cvd_11.png');}.h12{background-image:url('../image/covid/cvd_12.png');}
+.h13{background-image:url('../image/covid/cvd_13.png');}.h14{background-image:url('../image/covid/cvd_14.png');}.h15{background-image:url('../image/covid/cvd_15.png');}
+.h16{background-image:url('../image/covid/cvd_16.png');}.h17{background-image:url('../image/covid/cvd_17.png');}.h18{background-image:url('../image/covid/cvd_18.png');}
+.h19{background-image:url('../image/covid/cvd_19.png');}.h20{background-image:url('../image/covid/cvd_20.png');}.h21{background-image:url('../image/economy/emy_1.png');}
+.h22{background-image:url('../image/economy/emy_2.png');}.h23{background-image:url('../image/economy/emy_3.png');}.h24{background-image:url('../image/economy/emy_4.png');}
+.h25{background-image:url('../image/economy/emy_5.png');}.h26{background-image:url('../image/economy/emy_6.png');}.h27{background-image:url('../image/economy/emy_7.png');}
+.h28{background-image:url('../image/economy/emy_8.png');}.h29{background-image:url('../image/economy/emy_9.png');}.h30{background-image:url('../image/economy/emy_10.png');}
+.h31{background-image:url('../image/economy/emy_11.png');}.h32{background-image:url('../image/economy/emy_12.png');}.h33{background-image:url('../image/economy/emy_13.png');}
+.h34{background-image:url('../image/economy/emy_14.png');}.h35{background-image:url('../image/economy/emy_15.png');}.h36{background-image:url('../image/economy/emy_16.png');}
+.h37{background-image:url('../image/economy/emy_17.png');}.h38{background-image:url('../image/economy/emy_18.png');}.h39{background-image:url('../image/economy/emy_19.png');}
+.h40{background-image:url('../image/economy/emy_20.png');}.h41{background-image:url('../image/environment/eco_1.png');}
+.h42{background-image:url('../image/environment/eco_2.png');}.h43{background-image:url('../image/environment/eco_3.png');}
+.h44{background-image:url('../image/environment/eco_4.png');}.h45{background-image:url('../image/environment/eco_5.png');}
+.h46{background-image:url('../image/environment/eco_6.png');}.h47{background-image:url('../image/environment/eco_7.png');}
+.h48{background-image:url('../image/environment/eco_8.png');}.h49{background-image:url('../image/environment/eco_9.png');}
+.h50{background-image:url('../image/environment/eco_10.png');}.h51{background-image:url('../image/environment/eco_11.png');}
+.h52{background-image:url('../image/environment/eco_12.png');}.h53{background-image:url('../image/environment/eco_13.png');}
+.h54{background-image:url('../image/environment/eco_14.png');}.h55{background-image:url('../image/environment/eco_15.png');}
+.h56{background-image:url('../image/environment/eco_16.png');}.h57{background-image:url('../image/environment/eco_17.png');}
+.h58{background-image:url('../image/environment/eco_18.png');}.h59{background-image:url('../image/environment/eco_19.png');}
+.h60{background-image:url('../image/environment/eco_20.png');}.h61{background-image:url('../image/labor/lbr_1.png');}.h62{background-image:url('../image/labor/lbr_2.png');}
+.h63{background-image:url('../image/labor/lbr_3.png');}.h64{background-image:url('../image/labor/lbr_4.png');}.h65{background-image:url('../image/labor/lbr_5.png');}
+.h66{background-image:url('../image/labor/lbr_6.png');}.h67{background-image:url('../image/labor/lbr_7.png');}.h68{background-image:url('../image/labor/lbr_8.png');}
+.h69{background-image:url('../image/labor/lbr_9.png');}.h70{background-image:url('../image/labor/lbr_10.png');}.h71{background-image:url('../image/labor/lbr_11.png');}
+.h72{background-image:url('../image/labor/lbr_12.png');}.h73{background-image:url('../image/labor/lbr_13.png');}.h74{background-image:url('../image/labor/lbr_14.png');}
+.h75{background-image:url('../image/labor/lbr_15.png');}.h76{background-image:url('../image/labor/lbr_16.png');}.h77{background-image:url('../image/labor/lbr_17.png');}
+.h78{background-image:url('../image/labor/lbr_18.png');}.h79{background-image:url('../image/labor/lbr_19.png');}.h80{background-image:url('../image/labor/lbr_20.png');}
+.h81{background-image:url('../image/nation/ntn_1.png');}.h82{background-image:url('../image/nation/ntn_2.png');}.h83{background-image:url('../image/nation/ntn_3.png');}
+.h84{background-image:url('../image/nation/ntn_4.png');}.h85{background-image:url('../image/nation/ntn_5.png');}.h86{background-image:url('../image/nation/ntn_6.png');}
+.h87{background-image:url('../image/nation/ntn_7.png');}.h88{background-image:url('../image/nation/ntn_8.png');}.h89{background-image:url('../image/nation/ntn_9.png');}
+.h90{background-image:url('../image/nation/ntn_10.png');}.h91{background-image:url('../image/nation/ntn_11.png');}.h92{background-image:url('../image/nation/ntn_12.png');}
+.h93{background-image:url('../image/nation/ntn_13.png');}.h94{background-image:url('../image/nation/ntn_14.png');}.h95{background-image:url('../image/nation/ntn_15.png');}
+.h96{background-image:url('../image/nation/ntn_16.png');}.h97{background-image:url('../image/nation/ntn_17.png');}.h98{background-image:url('../image/nation/ntn_18.png');}
+.h99{background-image:url('../image/nation/ntn_19.png');}.h100{background-image:url('../image/nation/ntn_20.png');}.h101{background-image:url('../image/politics/pol_1.png');}
+.h102{background-image:url('../image/politics/pol_2.png');}.h103{background-image:url('../image/politics/pol_3.png');}
+.h104{background-image:url('../image/politics/pol_4.png');}.h105{background-image:url('../image/politics/pol_5.png');}
+.h106{background-image:url('../image/politics/pol_6.png');}.h107{background-image:url('../image/politics/pol_7.png');}
+.h108{background-image:url('../image/politics/pol_8.png');}.h109{background-image:url('../image/politics/pol_9.png');}
+.h110{background-image:url('../image/politics/pol_10.png');}.h111{background-image:url('../image/politics/pol_11.png');}
+.h112{background-image:url('../image/politics/pol_12.png');}.h113{background-image:url('../image/politics/pol_13.png');}
+.h114{background-image:url('../image/politics/pol_14.png');}.h115{background-image:url('../image/politics/pol_15.png');}
+.h116{background-image:url('../image/politics/pol_16.png');}.h117{background-image:url('../image/politics/pol_17.png');}
+.h118{background-image:url('../image/politics/pol_18.png');}.h119{background-image:url('../image/politics/pol_19.png');}
+.h120{background-image:url('../image/politics/pol_20.png');}.h121{background-image:url('../image/queer/qer_1.png');}
+.h122{background-image:url('../image/queer/qer_2.png');}.h123{background-image:url('../image/queer/qer_3.png');}.h124{background-image:url('../image/queer/qer_4.png');}
+.h125{background-image:url('../image/queer/qer_5.png');}.h126{background-image:url('../image/queer/qer_6.png');}.h127{background-image:url('../image/queer/qer_7.png');}
+.h128{background-image:url('../image/queer/qer_8.png');}.h129{background-image:url('../image/queer/qer_9.png');}.h130{background-image:url('../image/queer/qer_10.png');}
+.h131{background-image:url('../image/queer/qer_11.png');}.h132{background-image:url('../image/queer/qer_12.png');}.h133{background-image:url('../image/queer/qer_13.png');}
+.h134{background-image:url('../image/queer/qer_14.png');}.h135{background-image:url('../image/queer/qer_15.png');}.h136{background-image:url('../image/queer/qer_16.png');}
+.h137{background-image:url('../image/queer/qer_17.png');}.h138{background-image:url('../image/queer/qer_18.png');}.h139{background-image:url('../image/queer/qer_19.png');}
+.h140{background-image:url('../image/queer/qer_20.png');}.h141{background-image:url('../image/race/rce_1.png');}.h142{background-image:url('../image/race/rce_2.png');}
+.h143{background-image:url('../image/race/rce_3.png');}.h144{background-image:url('../image/race/rce_4.png');}.h145{background-image:url('../image/race/rce_5.png');}
+.h146{background-image:url('../image/race/rce_6.png');}.h147{background-image:url('../image/race/rce_7.png');}.h148{background-image:url('../image/race/rce_8.png');}
+.h149{background-image:url('../image/race/rce_9.png');}.h150{background-image:url('../image/race/rce_10.png');}.h151{background-image:url('../image/race/rce_11.png');}
+.h152{background-image:url('../image/race/rce_12.png');}.h153{background-image:url('../image/race/rce_13.png');}.h154{background-image:url('../image/race/rce_14.png');}
+.h155{background-image:url('../image/race/rce_15.png');}.h156{background-image:url('../image/race/rce_16.png');}.h157{background-image:url('../image/race/rce_17.png');}
+.h158{background-image:url('../image/race/rce_18.png');}.h159{background-image:url('../image/race/rce_19.png');}.h160{background-image:url('../image/race/rce_20.png');}
+.h161{background-image:url('../image/religion/rel_1.png');}.h162{background-image:url('../image/religion/rel_2.png');}
+.h163{background-image:url('../image/religion/rel_3.png');}.h164{background-image:url('../image/religion/rel_4.png');}
+.h165{background-image:url('../image/religion/rel_5.png');}.h166{background-image:url('../image/religion/rel_6.png');}
+.h167{background-image:url('../image/religion/rel_7.png');}.h168{background-image:url('../image/religion/rel_8.png');}
+.h169{background-image:url('../image/religion/rel_9.png');}.h170{background-image:url('../image/religion/rel_10.png');}
+.h171{background-image:url('../image/religion/rel_11.png');}.h172{background-image:url('../image/religion/rel_12.png');}
+.h173{background-image:url('../image/religion/rel_13.png');}.h174{background-image:url('../image/religion/rel_14.png');}
+.h175{background-image:url('../image/religion/rel_15.png');}.h176{background-image:url('../image/religion/rel_16.png');}
+.h177{background-image:url('../image/religion/rel_17.png');}.h178{background-image:url('../image/religion/rel_18.png');}
+.h179{background-image:url('../image/religion/rel_19.png');}.h180{background-image:url('../image/religion/rel_20.png');}
+.h181{background-image:url('../image/womenright/wom_1.png');}.h182{background-image:url('../image/womenright/wom_2.png');}
+.h183{background-image:url('../image/womenright/wom_3.png');}.h184{background-image:url('../image/womenright/wom_4.png');}
+.h185{background-image:url('../image/womenright/wom_5.png');}.h186{background-image:url('../image/womenright/wom_6.png');}
+.h187{background-image:url('../image/womenright/wom_7.png');}.h188{background-image:url('../image/womenright/wom_8.png');}
+.h189{background-image:url('../image/womenright/wom_9.png');}.h190{background-image:url('../image/womenright/wom_10.png');}
+.h191{background-image:url('../image/womenright/wom_11.png');}.h192{background-image:url('../image/womenright/wom_12.png');}
+.h193{background-image:url('../image/womenright/wom_13.png');}.h194{background-image:url('../image/womenright/wom_14.png');}
+.h195{background-image:url('../image/womenright/wom_15.png');}.h196{background-image:url('../image/womenright/wom_16.png');}
+.h197{background-image:url('../image/womenright/wom_17.png');}.h198{background-image:url('../image/womenright/wom_18.png');}
+.h199{background-image:url('../image/womenright/wom_19.png');}.h200{background-image:url('../image/womenright/wom_20.png');}
+
+
+
+
+.hb1{background-image:url('../image/covid/cvd_1_b.png');}
+.hb2{background-image:url('../image/covid/cvd_2_b.png');}
+.hb3{background-image:url('../image/covid/cvd_3_b.png');}
+.hb4{background-image:url('../image/covid/cvd_4_b.png');}
+.hb5{background-image:url('../image/covid/cvd_5_b.png');}
+.hb6{background-image:url('../image/covid/cvd_6_b.png');}
+.hb7{background-image:url('../image/covid/cvd_7_b.png');}
+.hb8{background-image:url('../image/covid/cvd_8_b.png');}
+.hb9{background-image:url('../image/covid/cvd_9_b.png');}
+.hb10{background-image:url('../image/covid/cvd_10_b.png');}
+.hb11{background-image:url('../image/covid/cvd_11_b.png');}
+.hb12{background-image:url('../image/covid/cvd_12_b.png');}
+.hb13{background-image:url('../image/covid/cvd_13_b.png');}
+.hb14{background-image:url('../image/covid/cvd_14_b.png');}
+.hb15{background-image:url('../image/covid/cvd_15_b.png');}
+.hb16{background-image:url('../image/covid/cvd_16_b.png');}
+.hb17{background-image:url('../image/covid/cvd_17_b.png');}
+.hb18{background-image:url('../image/covid/cvd_18_b.png');}
+.hb19{background-image:url('../image/covid/cvd_19_b.png');}
+.hb20{background-image:url('../image/covid/cvd_20_b.png');}
+
+.hb21{background-image:url('../image/economy/emy_1_b.png');}
+.hb22{background-image:url('../image/economy/emy_2_b.png');}
+.hb23{background-image:url('../image/economy/emy_3_b.png');}
+.hb24{background-image:url('../image/economy/emy_4_b.png');}
+.hb25{background-image:url('../image/economy/emy_5_b.png');}
+.hb26{background-image:url('../image/economy/emy_6_b.png');}
+.hb27{background-image:url('../image/economy/emy_7_b.png');}
+.hb28{background-image:url('../image/economy/emy_8_b.png');}
+.hb29{background-image:url('../image/economy/emy_9_b.png');}
+.hb30{background-image:url('../image/economy/emy_10_b.png');}
+.hb31{background-image:url('../image/economy/emy_11_b.png');}
+.hb32{background-image:url('../image/economy/emy_12_b.png');}
+.hb33{background-image:url('../image/economy/emy_13_b.png');}
+.hb34{background-image:url('../image/economy/emy_14_b.png');}
+.hb35{background-image:url('../image/economy/emy_15_b.png');}
+.hb36{background-image:url('../image/economy/emy_16_b.png');}
+.hb37{background-image:url('../image/economy/emy_17_b.png');}
+.hb38{background-image:url('../image/economy/emy_18_b.png');}
+.hb39{background-image:url('../image/economy/emy_19_b.png');}
+.hb40{background-image:url('../image/economy/emy_20_b.png');}
+
+.hb41{background-image:url('../image/environment/eco_1_b.png');}
+.hb42{background-image:url('../image/environment/eco_2_b.png');}
+.hb43{background-image:url('../image/environment/eco_3_bpng');}
+.hb44{background-image:url('../image/environment/eco_4_b.png');}
+.hb45{background-image:url('../image/environment/eco_5_b.png');}
+.hb46{background-image:url('../image/environment/eco_6_b.png');}
+.hb47{background-image:url('../image/environment/eco_7_b.png');}
+.hb48{background-image:url('../image/environment/eco_8_b.png');}
+.hb49{background-image:url('../image/environment/eco_9_b.png');}
+.hb50{background-image:url('../image/environment/eco_10_b.png');}
+.hb51{background-image:url('../image/environment/eco_11_b.png');}
+.hb52{background-image:url('../image/environment/eco_12_b.png');}
+.hb53{background-image:url('../image/environment/eco_13_b.png');}
+.hb54{background-image:url('../image/environment/eco_14_b.png');}
+.hb55{background-image:url('../image/environment/eco_15_b.png');}
+.hb56{background-image:url('../image/environment/eco_16_b.png');}
+.hb57{background-image:url('../image/environment/eco_17_b.png');}
+.hb58{background-image:url('../image/environment/eco_18_b.png');}
+.hb59{background-image:url('../image/environment/eco_19_b.png');}
+.hb60{background-image:url('../image/environment/eco_20_b.png');}
+.hb61{background-image:url('../image/labor/lbr_1_b.png');}
+.hb62{background-image:url('../image/labor/lbr_2_b.png');}
+.hb63{background-image:url('../image/labor/lbr_3_b.png');}
+.hb64{background-image:url('../image/labor/lbr_4_b.png');}
+.hb65{background-image:url('../image/labor/lbr_5_b.png');}
+.hb66{background-image:url('../image/labor/lbr_6_b.png');}
+.hb67{background-image:url('../image/labor/lbr_7_b.png');}
+.hb68{background-image:url('../image/labor/lbr_8_b.png');}
+.hb69{background-image:url('../image/labor/lbr_9_b.png');}
+.hb70{background-image:url('../image/labor/lbr_10_b.png');}
+.hb71{background-image:url('../image/labor/lbr_11_b.png');}
+.hb72{background-image:url('../image/labor/lbr_12_b.png');}
+.hb73{background-image:url('../image/labor/lbr_13_b.png');}
+.hb74{background-image:url('../image/labor/lbr_14_b.png');}
+.hb75{background-image:url('../image/labor/lbr_15_b.png');}
+.hb76{background-image:url('../image/labor/lbr_16_b.png');}
+.hb77{background-image:url('../image/labor/lbr_17_b.png');}
+.hb78{background-image:url('../image/labor/lbr_18_b.png');}
+.hb79{background-image:url('../image/labor/lbr_19_b.png');}
+.hb80{background-image:url('../image/labor/lbr_20_b.png');}
+.hb81{background-image:url('../image/nation/ntn_1_b.png');}
+.hb82{background-image:url('../image/nation/ntn_2_b.png');}
+.hb83{background-image:url('../image/nation/ntn_3_b.png');}
+.hb84{background-image:url('../image/nation/ntn_4_b.png');}
+.hb85{background-image:url('../image/nation/ntn_5_b.png');}
+.hb86{background-image:url('../image/nation/ntn_6_b.png');}
+.hb87{background-image:url('../image/nation/ntn_7_b.png');}
+.hb88{background-image:url('../image/nation/ntn_8_b.png');}
+.hb89{background-image:url('../image/nation/ntn_9_b.png');}
+.hb90{background-image:url('../image/nation/ntn_10_b.png');}
+.hb91{background-image:url('../image/nation/ntn_11_b.png');}
+.hb92{background-image:url('../image/nation/ntn_12_b.png');}
+.hb93{background-image:url('../image/nation/ntn_13_b.png');}
+.hb94{background-image:url('../image/nation/ntn_14_b.png');}
+.hb95{background-image:url('../image/nation/ntn_15_b.png');}
+.hb96{background-image:url('../image/nation/ntn_16_b.png');}
+.hb97{background-image:url('../image/nation/ntn_17_b.png');}
+.hb98{background-image:url('../image/nation/ntn_18_b.png');}
+.hb99{background-image:url('../image/nation/ntn_19_b.png');}
+.hb100{background-image:url('../image/nation/ntn_20_b.png');}
+.hb101{background-image:url('../image/politics/pol_1_b.png');}
+.hb102{background-image:url('../image/politics/pol_2_b.png');}
+.hb103{background-image:url('../image/politics/pol_3_b.png');}
+.hb104{background-image:url('../image/politics/pol_4_b.png');}
+.hb105{background-image:url('../image/politics/pol_5_b.png');}
+.hb106{background-image:url('../image/politics/pol_6_b.png');}
+.hb107{background-image:url('../image/politics/pol_7_b.png');}
+.hb108{background-image:url('../image/politics/pol_8_b.png');}
+.hb109{background-image:url('../image/politics/pol_9_b.png');}
+.hb110{background-image:url('../image/politics/pol_10_b.png');}
+.hb111{background-image:url('../image/politics/pol_11_b.png');}
+.hb112{background-image:url('../image/politics/pol_12_b.png');}
+.hb113{background-image:url('../image/politics/pol_13_b.png');}
+.hb114{background-image:url('../image/politics/pol_14_b.png');}
+.hb115{background-image:url('../image/politics/pol_15_b.png');}
+.hb116{background-image:url('../image/politics/pol_16_b.png');}
+.hb117{background-image:url('../image/politics/pol_17_b.png');}
+.hb118{background-image:url('../image/politics/pol_18_b.png');}
+.hb119{background-image:url('../image/politics/pol_19_b.png');}
+.hb120{background-image:url('../image/politics/pol_20_b.png');}
+
+
+.hb121{background-image:url('../image/queer/qer_1_b.png');}
+.hb122{background-image:url('../image/queer/qer_2_b.png');}
+.hb123{background-image:url('../image/queer/qer_3_b.png');}
+.hb124{background-image:url('../image/queer/qer_4_b.png');}
+.hb125{background-image:url('../image/queer/qer_5_b.png');}
+.hb126{background-image:url('../image/queer/qer_6_b.png');}
+.hb127{background-image:url('../image/queer/qer_7_b.png');}
+.hb128{background-image:url('../image/queer/qer_8_b.png');}
+.hb129{background-image:url('../image/queer/qer_9_b.png');}
+.hb130{background-image:url('../image/queer/qer_10_b.png');}
+.hb131{background-image:url('../image/queer/qer_11_b.png');}
+.hb132{background-image:url('../image/queer/qer_12_b.png');}
+.hb133{background-image:url('../image/queer/qer_13_b.png');}
+.hb134{background-image:url('../image/queer/qer_14_b.png');}
+.hb135{background-image:url('../image/queer/qer_15_b.png');}
+.hb136{background-image:url('../image/queer/qer_16_b.png');}
+.hb137{background-image:url('../image/queer/qer_17_b.png');}
+.hb138{background-image:url('../image/queer/qer_18_b.png');}
+.hb139{background-image:url('../image/queer/qer_19_b.png');}
+.hb140{background-image:url('../image/queer/qer_20_b.png');}
+.hb141{background-image:url('../image/race/rce_1_b.png');}
+.hb142{background-image:url('../image/race/rce_2_b.png');}
+.hb143{background-image:url('../image/race/rce_3_b.png');}
+.hb144{background-image:url('../image/race/rce_4_b.png');}
+.hb145{background-image:url('../image/race/rce_5_b.png');}
+.hb146{background-image:url('../image/race/rce_6_b.png');}
+.hb147{background-image:url('../image/race/rce_7_b.png');}
+.hb148{background-image:url('../image/race/rce_8_b.png');}
+.hb149{background-image:url('../image/race/rce_9_b.png');}
+.hb150{background-image:url('../image/race/rce_10_b.png');}
+.hb151{background-image:url('../image/race/rce_11_b.png');}
+.hb152{background-image:url('../image/race/rce_12_b.png');}
+.hb153{background-image:url('../image/race/rce_13_b.png');}
+.hb154{background-image:url('../image/race/rce_14_b.png');}
+.hb155{background-image:url('../image/race/rce_15_b.png');}
+.hb156{background-image:url('../image/race/rce_16_b.png');}
+.hb157{background-image:url('../image/race/rce_17_b.png');}
+.hb158{background-image:url('../image/race/rce_18_b.png');}
+.hb159{background-image:url('../image/race/rce_19_b.png');}
+.hb160{background-image:url('../image/race/rce_20_b.png');}
+.hb161{background-image:url('../image/religion/rel_1_b.png');}
+.hb162{background-image:url('../image/religion/rel_2_b.png');}
+.hb163{background-image:url('../image/religion/rel_3_b.png');}
+.hb164{background-image:url('../image/religion/rel_4_b.png');}
+.hb165{background-image:url('../image/religion/rel_5_b.png');}
+.hb166{background-image:url('../image/religion/rel_6_b.png');}
+.hb167{background-image:url('../image/religion/rel_7_b.png');}
+.hb168{background-image:url('../image/religion/rel_8_b.png');}
+.hb169{background-image:url('../image/religion/rel_9_b.png');}
+.hb170{background-image:url('../image/religion/rel_10_b.png');}
+.hb171{background-image:url('../image/religion/rel_11_b.png');}
+.hb172{background-image:url('../image/religion/rel_12_b.png');}
+.hb173{background-image:url('../image/religion/rel_13_b.png');}
+.hb174{background-image:url('../image/religion/rel_14_b.png');}
+.hb175{background-image:url('../image/religion/rel_15_b.png');}
+.hb176{background-image:url('../image/religion/rel_16_b.png');}
+.hb177{background-image:url('../image/religion/rel_17_b.png');}
+.hb178{background-image:url('../image/religion/rel_18_b.png');}
+.hb179{background-image:url('../image/religion/rel_19_b.png');}
+.hb180{background-image:url('../image/religion/rel_20_b.png');}
+.hb181{background-image:url('../image/womenright/wom_1_b.png');}
+.hb182{background-image:url('../image/womenright/wom_2_b.png');}
+.hb183{background-image:url('../image/womenright/wom_3_b.png');}
+.hb184{background-image:url('../image/womenright/wom_4_b.png');}
+.hb185{background-image:url('../image/womenright/wom_5_b.png');}
+.hb186{background-image:url('../image/womenright/wom_6_b.png');}
+.hb187{background-image:url('../image/womenright/wom_7_b.png');}
+.hb188{background-image:url('../image/womenright/wom_8_b.png');}
+.hb189{background-image:url('../image/womenright/wom_9_b.png');}
+.hb190{background-image:url('../image/womenright/wom_10_b.png');}
+.hb191{background-image:url('../image/womenright/wom_11_b.png');}
+.hb192{background-image:url('../image/womenright/wom_12_b.png');}
+.hb193{background-image:url('../image/womenright/wom_13_b.png');}
+.hb194{background-image:url('../image/womenright/wom_14_b.png');}
+.hb195{background-image:url('../image/womenright/wom_15_b.png');}
+.hb196{background-image:url('../image/womenright/wom_16_b.png');}
+.hb197{background-image:url('../image/womenright/wom_17_b.png');}
+.hb198{background-image:url('../image/womenright/wom_18_b.png');}
+.hb199{background-image:url('../image/womenright/wom_19_b.png');}
+.hb200{background-image:url('../image/womenright/wom_20_b.png');}
+
+.about{ text-align:left; display:flex; flex-direction: row; margin: 25px; ;
+   font-family: 'editorialNew';padding-bottom:20px;}
+.about_0{flex:0.5; padding-top:10px;}
+.about_1{flex:1;}
+.width{padding-right:30px;}
+.about_2{flex:1;}
+.arrow-head {
+   width: 10px;
+   height: 10px;
+   border: solid;
+   border-width: 1.2px 0 0 1.2px;	/* top right bottom left */
+   left: 0;
+   top: 0;
+}
+
+.arrow-tail {
+   width: 50px;
+   height: 1.2px;
+   background-color: #68665c;
+   position: absolute;
+   transform: rotate(45deg);
+   transform-origin: left;
+   left: 0;
+   top: 0;
+   border:1px;
+}
+
+.arrow-container {
+  
+   position: relative;
+   width: 50px;
+   height: 30px;
+   transform: rotate(135deg);
+}
